@@ -4,7 +4,8 @@
 
 ;;; Code:
 
-(prelude-require-packages '(editorconfig))
+(when (executable-find "editorconfig")
+  (prelude-require-package 'editorconfig))
 
 (global-linum-mode 1)
 
