@@ -6,8 +6,6 @@
 
 (prelude-require-packages '(editorconfig))
 
-(set-frame-font "Fira Mono 13")
-
 (global-linum-mode 1)
 
 (setq mac-command-modifier 'meta)
