@@ -7,6 +7,8 @@
 (when (executable-find "editorconfig")
   (prelude-require-package 'editorconfig))
 
+(setq-default indent-tabs-mode nil)
+
 (global-linum-mode 1)
 
 (setq mac-command-modifier 'meta)
